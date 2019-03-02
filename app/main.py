@@ -34,6 +34,8 @@ def ping():
 def start():
     data = bottle.request.json
 
+    print(json.dumps(data))
+
     color = "#8B0000"
     head_type = "dead"
     tail_type = "sharp"
